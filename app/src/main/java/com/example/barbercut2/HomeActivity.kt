@@ -19,6 +19,7 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var logoutButton: Button
     private lateinit var userText: TextView
     private lateinit var profileButton: Button
+    private lateinit var agendarButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,13 +28,22 @@ class HomeActivity : AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
         logoutButton = findViewById(R.id.logoutButton)
         profileButton = findViewById(R.id.profileButton)
+        agendarButton = findViewById(R.id.agendarButton)
 
         val email = intent.getStringExtra("email")
 
         findViewById<TextView>(R.id.userText).text = email
 
+        agenda()
         perfil()
         salir()
+    }
+    private fun agenda() {
+        title = "Cambiar a perfil"
+        agendarButton.setOnClickListener {
+            val intent = Intent(this@HomeActivity, ScheduleActivity::class.java)
+            startActivity(intent)
+        }
     }
     private fun perfil() {
         title = "Cambiar a perfil"
