@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "824245886152",
+    "project_id": "barbercut-4e260",
+    "storage_bucket": "barbercut-4e260.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824245886152:android:4b66af8a83d9859aa2d9fd",
+        "android_client_info": {
+          "package_name": "com.example.barbercut2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4WPFwAmKOaCwrWEX4n6dUAlZDeH28PP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,97 @@
+{
+  "modelName": "dependent_metallic_roughness_p_b_r_material_model",
+  "name": "defaultMat",
+  "identifier": "dependent_metallic_roughness_p_b_r_material_model:652907-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+  "sourceIdentifier": "asset_collection_model:652931-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+  "alphaTestEnabled": false,
+  "alphaTestThreshold": 0,
+  "baseColorFactor": "0xffd4d4d4",
+  "baseColorTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "blendMode": "replace",
+  "colorEncoding": "srgb",
+  "cullMode": "back",
+  "diffuseEnvironmentTextureTransform": {
+    "rotationX": 0,
+    "rotationY": 0,
+    "rotationZ": 0
+  },
+  "diffuseTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "doubleSided": true,
+  "emissiveEnabled": false,
+  "emissiveFactor": "0xff000000",
+  "emissiveTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "environmentEnabled": true,
+  "environmentTextureName": "environment_texture_model:649100-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+  "importIssues": {
+    "textures": [
+      {
+        "type": 1
+      }
+    ]
+  },
+  "isBaseColorTextureIdentifierEnabled": false,
+  "isDiffuseEnvironmentTextureIdentifierEnabled": false,
+  "isDiffuseTextureIdentifierEnabled": false,
+  "isEmissiveTextureIdentifierEnabled": false,
+  "isMetallicRoughnessTextureIdentifierEnabled": false,
+  "isNormalTextureIdentifierEnabled": true,
+  "isOcclusionTextureIdentifierEnabled": false,
+  "isSpecularEnvironmentTextureIdentifierEnabled": false,
+  "metallicFactor": 0,
+  "metallicRoughnessTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "normalTextureName": "dependent_texture_model:652909-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+  "normalTextureScale": 1,
+  "normalTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1.0000121593475342,
+    "scaleV": 1.0000121593475342
+  },
+  "occlusionStrength": 0,
+  "occlusionTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "readDepth": true,
+  "roughnessFactor": 1,
+  "specularEnvironmentTextureTransform": {
+    "rotationX": 0,
+    "rotationY": 0,
+    "rotationZ": 0
+  },
+  "transparency": 1,
+  "vertexColorEnabled": false,
+  "writeDepth": true,
+  "writesToColorBufferAlpha": true,
+  "writesToColorBufferBlue": true,
+  "writesToColorBufferGreen": true,
+  "writesToColorBufferRed": true
+}

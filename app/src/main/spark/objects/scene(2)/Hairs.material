@@ -1,0 +1,91 @@
+{
+  "modelName": "dependent_metallic_roughness_p_b_r_material_model",
+  "name": "Hairs",
+  "identifier": "dependent_metallic_roughness_p_b_r_material_model:652285-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+  "sourceIdentifier": "asset_collection_model:652359-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+  "alphaTestEnabled": false,
+  "alphaTestThreshold": 0,
+  "baseColorFactor": "0xffffffff",
+  "baseColorTextureName": "dependent_texture_model:652287-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+  "baseColorTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "blendMode": "alpha",
+  "colorEncoding": "srgb",
+  "cullMode": "back",
+  "diffuseEnvironmentTextureTransform": {
+    "rotationX": 0,
+    "rotationY": 0,
+    "rotationZ": 0
+  },
+  "diffuseTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "doubleSided": true,
+  "emissiveEnabled": false,
+  "emissiveFactor": "0xff000000",
+  "emissiveTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "environmentEnabled": true,
+  "environmentTextureName": "environment_texture_model:649100-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+  "importIssues": {},
+  "isBaseColorTextureIdentifierEnabled": true,
+  "isDiffuseEnvironmentTextureIdentifierEnabled": false,
+  "isDiffuseTextureIdentifierEnabled": false,
+  "isEmissiveTextureIdentifierEnabled": false,
+  "isMetallicRoughnessTextureIdentifierEnabled": false,
+  "isNormalTextureIdentifierEnabled": false,
+  "isOcclusionTextureIdentifierEnabled": false,
+  "isSpecularEnvironmentTextureIdentifierEnabled": false,
+  "metallicFactor": 0,
+  "metallicRoughnessTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "normalTextureScale": 1,
+  "normalTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "occlusionStrength": 0,
+  "occlusionTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "readDepth": true,
+  "roughnessFactor": 0.5795450210571289,
+  "specularEnvironmentTextureTransform": {
+    "rotationX": 0,
+    "rotationY": 0,
+    "rotationZ": 0
+  },
+  "transparency": 1,
+  "vertexColorEnabled": true,
+  "writeDepth": true,
+  "writesToColorBufferAlpha": true,
+  "writesToColorBufferBlue": true,
+  "writesToColorBufferGreen": true,
+  "writesToColorBufferRed": true
+}

@@ -1,0 +1,261 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 20936,
+      "max": [
+        0.1639903038740158,
+        0.17814506590366364,
+        0.14111259579658508
+      ],
+      "min": [
+        -0.16345122456550598,
+        -0.1848636269569397,
+        -0.1817799061536789
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 251232,
+      "componentType": 5126,
+      "count": 20936,
+      "max": [
+        0.9999374151229858,
+        0.9998854994773865,
+        0.9998730421066284
+      ],
+      "min": [
+        -0.9999998807907104,
+        -0.9996628165245056,
+        -0.9998789429664612
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 20936,
+      "max": [
+        0.999985933303833,
+        0.9999421834945679,
+        0.9999321699142456,
+        1.0
+      ],
+      "min": [
+        -0.9999409317970276,
+        -0.9999890327453613,
+        -0.9998723268508911,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 20936,
+      "max": [
+        0.9977200031280518,
+        0.9980400204658508
+      ],
+      "min": [
+        0.0019499999471008778,
+        0.0019499999471008778
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 109836,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "tubaraomex (https://sketchfab.com/tubaraomex)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/cabello-top-fcb04b87a4d84c9ba00eb73cc0f0d61f",
+      "title": "cabello top"
+    },
+    "generator": "Sketchfab-14.5.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 439344,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 167488,
+      "byteOffset": 439344,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 502464,
+      "byteOffset": 606832,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 334976,
+      "byteOffset": 1109296,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1444272,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness",
+    "KHR_texture_transform"
+  ],
+  "images": [
+    {
+      "uri": "textures/defaultMat_normal.jpeg"
+    },
+    {
+      "uri": "textures/defaultMat_occlusion.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.8,
+            0.8,
+            0.8,
+            1.0
+          ],
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "defaultMat",
+      "normalTexture": {
+        "extensions": {
+          "KHR_texture_transform": {
+            "scale": [
+              1.0000121349092819,
+              1.0000121349092819
+            ]
+          }
+        },
+        "index": 0
+      },
+      "occlusionTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.9999992251396179,
+        -0.0012233625166120365,
+        0.0,
+        0.0,
+        0.0012233625166120365,
+        -0.9999992251396179,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "cabello topcabello iyari 3.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9728,
+      "minFilter": 9728,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 1,
+      "source": 1
+    }
+  ]
+}

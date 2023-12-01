@@ -1,0 +1,177 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "Einstein Haircut",
+  "identifier": "master3_d_object_model:653560-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+  "sourceIdentifier": "asset_collection_model:653564-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 24.876510620117188,
+  "globalScaleFactor": 0.07351663507935716,
+  "height": 27.204727172851562,
+  "hidden": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": -1.5707961320877075,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 0.9999999403953552,
+    "sz": 0.9999999403953552,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 27.19573974609375,
+  "children": [
+    {
+      "modelName": "sceneObject",
+      "name": "c438d529686c401e9f06d0569d388b20.fbx",
+      "identifier": "sceneObject:653544-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "shapeColor": "0xff808080",
+      "shapeType": 0,
+      "tags": [],
+      "transform": {
+        "rx": 1.570796251296997,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 0.9999999403953552,
+        "sz": 0.9999999403953552,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "children": [
+        {
+          "modelName": "sceneObject",
+          "name": "RootNode",
+          "identifier": "sceneObject:653546-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "shapeColor": "0xff808080",
+          "shapeType": 0,
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "children": [
+            {
+              "modelName": "sceneObject",
+              "name": "RL_HairMesh",
+              "identifier": "sceneObject:653548-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "layerIdentifier": "layer0",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "shapeColor": "0xff808080",
+              "shapeType": 0,
+              "tags": [],
+              "transform": {
+                "rx": -1.5707941055297852,
+                "ry": 0,
+                "rz": 0,
+                "sx": 100,
+                "sy": 100,
+                "sz": 100,
+                "x": 0,
+                "y": -12.312382698059082,
+                "z": 0
+              },
+              "children": [
+                {
+                  "modelName": "mesh",
+                  "name": "RL_HairMesh_Mid_Length_Transparency_0",
+                  "identifier": "mesh:653550-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "castShadow": false,
+                  "hidden": false,
+                  "layerIdentifier": "layer0",
+                  "nodeName": "RL_HairMesh_Mid_Length_Transparency_0",
+                  "numberOfFaces": 18180,
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "prefabIdentifier": "gltf:653554-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+                  "receiveShadow": false,
+                  "renderPass": "main_scene",
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "useEmbeddedBlendshapes": false,
+                  "children": [
+                    {
+                      "modelName": "surfaces",
+                      "identifier": "surfaces:653552-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+                      "children": [
+                        {
+                          "modelName": "surface",
+                          "name": "surface0",
+                          "identifier": "surface:653557-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+                          "isMaterialIdentifierEnabled": true,
+                          "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:653540-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+                          "surfaceGroupIdentifier": "653558-144cbc4a-ce09-4c82-87cb-71c31b3878ff"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

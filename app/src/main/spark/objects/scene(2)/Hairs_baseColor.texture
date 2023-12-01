@@ -1,0 +1,37 @@
+{
+  "modelName": "dependent_texture_model",
+  "name": "Hairs_baseColor",
+  "identifier": "dependent_texture_model:652287-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+  "sourceIdentifier": "asset_collection_model:652359-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+  "alphaPremultiplicationMode": "none",
+  "assetLocator": "88aab70539541c9cd35db3ff481a1f0c.png",
+  "colorEncoding": "srgb",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "trilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": false,
+  "originalFileHash": "88aab70539541c9cd35db3ff481a1f0c",
+  "originalFileReference": "file_reference_model:652363-144cbc4a-ce09-4c82-87cb-71c31b3878ff",
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "repeat",
+  "vWrapMode": "repeat",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "88aab70539541c9cd35db3ff481a1f0c",
+      "colorCount": 264882,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 8.9528134109906,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}

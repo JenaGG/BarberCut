@@ -1,0 +1,233 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 14223,
+      "max": [
+        13.732807159423828,
+        18.146831512451172,
+        183.0671844482422
+      ],
+      "min": [
+        -13.462933540344238,
+        -6.729650974273682,
+        155.86244201660156
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 170676,
+      "componentType": 5126,
+      "count": 14223,
+      "max": [
+        0.9999707341194153,
+        0.9992442727088928,
+        0.9998342394828796
+      ],
+      "min": [
+        -0.9998261332511902,
+        -0.9999368190765381,
+        -0.9911016821861267
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 14223,
+      "max": [
+        0.9881662130355835,
+        0.9772462844848633
+      ],
+      "min": [
+        0.021592438220977783,
+        0.019981563091278076
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 113784,
+      "componentType": 5126,
+      "count": 14223,
+      "max": [
+        0.9881662130355835,
+        0.9772462844848633
+      ],
+      "min": [
+        0.021592438220977783,
+        0.019981563091278076
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 54540,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "@German_Martian (https://sketchfab.com/german_martian)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/einstein-haircut-eb3c94a2664642e2a8ddd130d037a767",
+      "title": "Einstein Haircut"
+    },
+    "generator": "Sketchfab-15.30.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 218160,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 227568,
+      "byteOffset": 218160,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 341352,
+      "byteOffset": 445728,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 787080,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Mid_Length_Transparency",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.7659652680679284
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "RL_HairMesh_Mid_Length_Transparency_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "c438d529686c401e9f06d0569d388b20.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.00022212651115127713,
+        -99.9999999997533,
+        0.0,
+        0.0,
+        99.9999999997533,
+        0.00022212651115127713,
+        0.0,
+        0.0,
+        -16747.751953125,
+        0.0,
+        1.0
+      ],
+      "name": "RL_HairMesh"
+    },
+    {
+      "mesh": 0,
+      "name": "RL_HairMesh_Mid_Length_Transparency_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
